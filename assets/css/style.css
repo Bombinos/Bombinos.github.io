@@ -168,13 +168,14 @@ a:visited {
 .text-block {
     /* position: absolute; */
     height: 35px;
-    width: 200px;
+    width: 240px;
     background-color: #4aaaa5;
     color: #ffffff;
     z-index: 7;
     text-align: center;
-    padding-top: 15px;
-    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
     bottom: 15px;
 } 
 
