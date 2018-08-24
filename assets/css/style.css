@@ -9,9 +9,7 @@
     font-size: x-large;
     
     }
-    
-
-
+     
 body {
     margin: 0px;
     background-image: url("../images/ignasi_pattern_s.png");
@@ -179,4 +177,21 @@ a:visited {
     bottom: 15px;
 } 
 
+@media screen and (max-width: 993px) {
+    .buttonSpace {
+         width:100%
+     }
+    }
+    @media screen and (max-width: 768px) {
+        #logins {
+            text-align: center;
+        }
+        #search {
+            display: inline block;
+        }
+    }
+    
+    @media screen and (max-width: 640px) {
+    
+    }
 
