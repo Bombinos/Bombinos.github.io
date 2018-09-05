@@ -1,38 +1,65 @@
 
 
+nav {
+    z-index: 2;
+    color: #0056d6;
+    background-color: #0056d6;
+    
+}
+
+#contentCont {
+    margin: 0px;
+    padding: 0px;
+}
+
 .navbar-brand {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    background: #4aaaa5;
+    color: #0056d6;
+    background-color: #e1f1cd;
     padding: 10px 10px 10px 10px;
-    margin-left: 175px;
-    margin-right: 625px;
+    margin-left: 8vw;
+    margin-right: .326vw;
     font-size: x-large;
+    border-radius: 100px;
     
     }
      
 body {
     margin: 0px;
-    background-image: url("../images/ignasi_pattern_s.png");
-    background-repeat: repeat;
+    padding: 0px;
+}
+
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
 }
 
 .about {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #dce9fc;
+    position: fixed;
+    
 }
 
 .portfolio {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-align: center;
-    color: #777777;
-    right: 360px;
-    width: 100px;
+    color: #1666dd;
+    right: .187vw;
+    width: .05vw;
     text-align: center;
     height: 16px;
-    background: #f8f9fa;
+    background-color: #dce9fc;
     top: 25px;
     position: fixed;
     border-style: solid;
-    border-color: #cccccc;
+    border-color: #bffc7a;
     border-top: hidden;
     border-right: hidden;
     border-bottom: hidden;
@@ -42,16 +69,16 @@ body {
 .contact {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-align: center;
-    color: #777777;
-    right: 260px;
-    width: 100px;
+    color: #1666dd;
+    right: .135vw;
+    width: .05vw;
     text-align: center;
     height: 16px;
-    background: #f8f9fa;
+    background-color: #dce9fc;
     top: 25px;
     position: fixed;
     border-style: solid;
-    border-color: #cccccc;
+    border-color: #bffc7a;
     border-top: hidden;
     border-right: hidden;
     border-bottom: hidden;
@@ -61,39 +88,78 @@ body {
 
 h3 {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
-    margin: 0px;
+    color: #0042a5;
+    margin-top: 100px;
     height: 50px;
-    padding-top: 8px;
-    padding-left: 10px;
+    padding-top: 4px;
+    padding-left: 25px;
+    background-color: #dce9fc;
+    opacity: 0.9;
+    border-width: 5px;
+    border-color: #bffc7a;
+    border-style: solid;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
 footer {
-    width: 1600px;
+    
     height: 50px;
-    background: #666666;
-    position: fixed;
+    background-color: #0056d6;
+    position: relative;
     bottom: 0;
     left: 0;
-    z-index: 5;
+    z-index: 2;
     border-top-style: solid;
-    border-top-color: #4aaaa5;
+    border-color: #bffc7a;
     border-top-width: 5px;
+    opacity: 0.8;
+    text-justify: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#foot {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    margin: 0px;
+    min-width: 100%;
+    padding:0;
+    text-justify: auto;
+    text-align: center;
 }
 
 p {
     
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    background-color: #ffffff;
+    color: #0042a5;
+    /* background-color: #97bef8; */
     margin-bottom: 0px;
-    padding-bottom: 10px;
+    padding: 10px 20px 10px 20px;
     text-align: justify;
+    opacity: 0.8;
+    font-weight: bold;
+    z-index: 2;
     
+}
+
+#textBackG {
+    background-color: #dce9fc;
+    z-index: 2;
+    opacity: .9;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #bffc7a;
+    border-width: 5px;
 }
 
 .photo {
     float: left;
+    opacity: 1;
+    z-index: 3;
+    margin-right: 20px;
 }
 
 input { 
@@ -109,13 +175,13 @@ input {
 label {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    border-color: #dddddd;
+    border-color: #bffc7a;
 }
 
 
 
 button {
-    background-color: #4aaaa5;
+    background-color: #1666dd;
     color: #ffffff;
     border: none;
     height: 30px;
@@ -135,39 +201,11 @@ a:visited {
     color: #ffffff;
 }
 
-/* .photo1 {
-    position: absolute;
-}
-
-.photo2 {
-    position: absolute;
-    
-   
-}
-
-.photo3 {
-    position: absolute;
-    
-   
-}
-
-.photo4 {
-    position: absolute;
-    
-    
-   
-}
-
-.photo5 {
-    position: absolute;
-    
-} */
-
 .text-block {
     /* position: absolute; */
     height: 35px;
     width: 240px;
-    background-color: #4aaaa5;
+    background-color: #1666dd;
     color: #ffffff;
     z-index: 7;
     text-align: center;
@@ -177,21 +215,22 @@ a:visited {
     bottom: 15px;
 } 
 
-@media screen and (max-width: 993px) {
-    .buttonSpace {
-         width:100%
-     }
+    /* @media screen and (max-width: 993px) {
+        body {
+            width: 100vw;
+        }
+        
     }
     @media screen and (max-width: 768px) {
-        #logins {
-            text-align: center;
+        body {
+            width: 100vw;
         }
-        #search {
-            display: inline block;
-        }
+        
     }
-    
     @media screen and (max-width: 640px) {
-    
-    }
+        
+        body {
+            width: 100vw;
+        }
+    } */
 
