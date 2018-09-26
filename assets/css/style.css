@@ -256,5 +256,9 @@ a:visited {
             #pitaWrap {
                 
             }
+
+           #background {
+               width: min-content;
+           }
     }
 
