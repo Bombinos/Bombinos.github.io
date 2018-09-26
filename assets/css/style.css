@@ -12,15 +12,15 @@ nav {
     padding: 0px;
 }
 
-.navbar-brand {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+ .navbar-brand {
+    font-family: 'Georgia', Times, serif;
     color: #0f0061;
-    background-color: #bffc7a;
-    padding: 10px 10px 10px 10px;
-    margin-left: 11vw;
-    margin-right: .326vw;
+    background-color: #e4fc7a;
     font-size: x-large;
     border-radius: 100px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     
     }
      
@@ -239,11 +239,22 @@ a:visited {
             width: 100vw;
         }
         
-    }
+    } */
+
     @media screen and (max-width: 640px) {
         
-        body {
-            width: 100vw;
-        }
-    } */
+        a.navbar-brand {
+            
+            padding-right: 20px;
+            
+            }
+
+        h1 {
+            padding-left: 20px;
+            }
+            
+            #pitaWrap {
+                
+            }
+    }
 
