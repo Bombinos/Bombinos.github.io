@@ -117,7 +117,7 @@ h3 {
 
 footer {
     
-    height: 75px;
+    height: 40px;
     background-color: #0f0061;
     position: relative;
     bottom: 0;
@@ -132,11 +132,14 @@ footer {
     padding-top: 10px;
 }
 
-#links {
+#linkG {
        
-        margin-right: 55px;
+        margin-right: 40px;
     }
 
+#linkL {
+    margin-left: 40px;
+}
 
 #foot {
     color: #bffc7a;
