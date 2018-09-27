@@ -316,7 +316,14 @@ a:visited {
                 margin: 0 auto;
             }
 
-            
+            #linkG {
+       
+                margin-right: 20px;
+            }
+        
+            #linkL {
+            margin-left: 20px;
+            }
         
         
     }
