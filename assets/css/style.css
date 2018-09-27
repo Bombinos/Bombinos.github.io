@@ -242,6 +242,12 @@ a:visited {
     opacity: 1; /* Firefox */
 }
 
+#cInfo {
+    font-size: x-large;
+    color: #0f0061;
+    border-color: #00ff95;
+}
+
     /* @media screen and (max-width: 993px) {
         body {
             width: 100vw;
@@ -294,6 +300,11 @@ a:visited {
             .navbar {
                 max-width: 100%;
                 padding: 0px;
+            }
+
+            #cInfo {
+                align-self: center;
+                margin: 0 auto;
             }
 
             
