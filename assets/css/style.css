@@ -160,15 +160,16 @@ p {
     color: #0f0061;
     margin-bottom: 0px;
     padding: 10px 20px 10px 20px;
-    text-align: justify;
     opacity: 0.8;
     font-weight: bold;
-    position: relative;
+    font-size: larger;
+    text-align: start;
+    
     
 }
 
 #pMove {
-    padding: 20px 20px 10px 0px;
+    padding: 10px 0px 10px 0px;
 }
 
 #textBackG {
@@ -183,9 +184,8 @@ p {
 
 .photo {
     float: left;
-    opacity: 1;
-    z-index: 3;
     margin-right: 20px;
+    
     
 }
 
@@ -247,7 +247,7 @@ button {
 }
 
 #cInfo {
-    font-size: large;
+    font-size: smaller;
     color: #0f0061;
     border-color: #00ff95;
     padding-left: 0px;
@@ -267,6 +267,23 @@ a:hover {
 }
 
     @media screen and (max-width: 640px) {
+
+        .photo {
+            height: 150px;
+            width: 150px;
+            
+        }
+
+        #photo {
+            height: 150px;
+            width: 150px;
+        }
+
+
+        p {
+            font-size: 15px;
+            text-align: start;  
+        }
         
         .navbar-brand {
             
